@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sorteador</title>
+</head>
+<body>
+  <header class="header">
+    <h1>Sorteador</h1>
+    <div>
+      <a href=""><img src="" alt="LinkedIn"></a>
+      <a href=""><img src="" alt="Github"></a>
+    </div>
+  </header>
+
+  <main class="container">
+    <form action="" id="sorteador">
+      <label for="sortear">Quantos números deseja sortear?</label>
+      <input type="number" name="sortear">
+      <label for="min">e gostaria de sortear entre</label>
+      <input type="number" name="min">
+      <label for="max">e</label>
+      <input type="number" name="max">
+      <button type="submit">SORTEAR</button>
+    </form>
+
+  </main>
+
+  <section class="result-container">
+    <h2>Os números sorteados foram:</h2>
+    <div id="result"></div>
+  </section>
+  <script src="numberRandomizer.js"></script>
+</body>
+</html>
