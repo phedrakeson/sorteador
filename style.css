@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Source+Sans+Pro:wght@400;700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -7,7 +9,9 @@
 
 body {
   margin: 0 60px 0 60px;
-  background-color: aliceblue;
+  background-color: #e8ecf1;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2e3131;
 }
 
 .header {
@@ -15,6 +19,42 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0 20px 0;
+  color: #67809f;
+}
+
+.header h1 {
+  font-family: 'Gruppo', cursive;
+  font-size: 2.5em;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    margin: 0 20px 0 20px;
+  }
+
+  .header {
+    padding: 10px 0 10px 0;
+  }
+
+  .header h1 {
+    font-size: 2em;
+  }
+}
+
+.icon-list {
+  display: flex;
+  gap: 20px;
+}
+
+.icon-list a {
+  width: 30px;
+  height: 30px;
+  opacity: 0.5;
+  transition: 0.5s linear;
+}
+
+.icon-list a:hover {
+  opacity: 1;
 }
 
 .container {
@@ -23,6 +63,7 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  font-size: 1.25em;
 }
 
 .container,
@@ -33,6 +74,29 @@ body {
 #sorteador {
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+
+#sorteador input {
+  height: 30px;
+  width: 120px;
+  font-size: 1.25em;
+  padding: 15px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#sorteador button {
+  height: 40px;
+  width: 150px;
+  margin: 15px auto;
+  background: #67809f;
+  border: none;
+  outline: none;
+}
+
+#sorteador button:hover {
+  cursor: pointer;
 }
 
 .result-container,
@@ -42,6 +106,8 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  font-weight: 700;
+  color: #2e3131;
 }
 
 #result {
@@ -54,6 +120,6 @@ body {
 
 #result span {
   font-size: 2em;
-  color: blue;
+  color: #67809f;
   padding: 20px;
 }
