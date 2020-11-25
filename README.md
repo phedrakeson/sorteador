@@ -1,6 +1,7 @@
 # Sorteador
 **Um simples Web App para sortear números**
 **Acesse o link para ver o site ao vivo clicando [aqui](http://sorteador.netlify.app/ "aqui")**
+
 ![](https://img.shields.io/github/stars/phedrakeson/sorteador) ![](https://img.shields.io/github/license/phedrakeson/sorteador?color=blue) ![](https://img.shields.io/github/languages/code-size/phedrakeson/sorteador)
 
 ------------
